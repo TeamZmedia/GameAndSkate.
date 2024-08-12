@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #007BFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+    
